@@ -1,0 +1,33 @@
+var vInt = 10, vFloat = 5.56;
+    let floatSum = vInt + vFloat;
+    console.log(parseInt(floatSum));
+    
+    console.log("-------------\n---------------");
+
+let a = 12, b = 13;
+    let equalityAb = (a !== b );
+    console.log(equalityAb);
+    
+    console.log("-------------\n---------------");
+
+var vString = "Shalom", vName = " uvazhaemyi";
+    let string1 = vString + vName;
+    console.log(string1 + " !");
+    
+    console.log("-------------\n---------------");
+
+let x;
+    console.log(x);
+let y = null;
+    console.log(y+x);
+let z = -5 / 0;
+    console.log(z);
+    
+    console.log("-------------\n---------------");
+    
+console.log(typeof x + " \n" +  typeof y + " \n" + typeof floatSum + " \n" +typeof equalityAb + " \n" +typeof vString);
+
+    console.log("-------------\n---------------");
+    
+let str1 = 1234, str2 = 1238abc,str3 =  0.15, str4 = 3.14ivan, str5 = Infinity, str6 = 99999999999999999999
+let pStr1 = parseInt(str1, str2) 

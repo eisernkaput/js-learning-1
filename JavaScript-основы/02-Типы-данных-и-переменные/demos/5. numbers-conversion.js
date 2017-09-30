@@ -15,3 +15,7 @@ const rounderInt2 = Math.round(fractionalNumber);
 console.log('fractionalNumber = ' + fractionalNumber);
 console.log('rounding with | = ' + roundedInt);
 console.log('rounding with Math.round = ' + rounderInt2);
+
+
+thirdValue = firstValue = 3;
+console.log(thirdValue, firstValue);
